@@ -1,0 +1,242 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* { margin: 0; padding: 0;}
+li { list-style: none; }
+a { color: inherit; text-decoration: none;}
+img { display: block; }
+
+
+div.swiper-pagination {
+  position: absolute; left: 0; 
+}
+div.swiper-scrollbar {
+  display: none;
+}
+
+
+
+
+div#wrap {
+  width: 100%;
+}
+header {
+  width: 100%; 
+  position: relative;
+}
+ul.list {
+  height: 80px; z-index: 100;
+  position: fixed; top: 0;
+  display: flex; 
+}
+ul.list li {
+  width: 100px; line-height: 80px;
+  text-align: right; color: #333;
+}
+
+
+div.swiper {
+  width: 100%; height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+div.swiper-wrapper {
+  width: 100vw; height: 100vh;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#intro {
+  width: 100%; height: 100%; 
+  background-color: #f8f8ff;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#intro p.text {
+  position: absolute; text-align: center; 
+  top: 45%; left: 50%; transform: translate(-50%, -50%);
+  font-size: 96px;
+  font-weight: bold;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#intro > p > a{
+  display: block; 
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#intro > p > span{
+  display: block;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#intro p.txt{
+  position: absolute; width: 800px; height: 115px;
+  transform: translate(-50%, -50%);
+  bottom: 10%; left: 50%; font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
+
+div.swiper div.swiper-wrapper div.swiper-slide  {
+  width: 100%; height: 100%;
+  background-color: #f0f8ff;
+  position: relative;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#me h1 {
+  color: #808080;
+  font-size: 256px;
+  position: absolute; left: -80px; top: 100px;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#me p {
+  color: #333;
+  z-index: 1;
+  font-size: 98px;
+  position: absolute; left: 90px; top: 290px;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#me img {
+  width: 350px;
+  position: absolute; left: 120px; top: 450px;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#me ul.profile {
+  position: absolute; line-height: 80px; font-size: 24px; font-weight: 700;
+  top: 50%; left: 70%; transform: translate(-50%, -50%);
+}
+
+
+div.swiper div.swiper-wrapper div.swiper-slide div#skill {
+  width: 100%; height: 100%;
+  background-color: #f0f8ff; position: relative;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#skill p:nth-child(1) {
+  color: #808080;
+  font-size: 256px;
+  position: absolute; left: -80px; top: 100px;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#skill > p > span{
+  display: block;
+  position: absolute; top: 70px; left: 90px;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#skill > p:nth-child(2) {
+  color: #333;
+  position: absolute; top: 420px; left: 50px; font-size: 98px;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#skill ul.hcj {
+  display: flex; justify-content: center; align-items: center;
+  position: absolute; top: 30%; left: 62%; transform: translate(-50%,-50%);
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#skill ul.hcj li img {
+  width: 200px;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#skill ul.hcj li  {
+  width: 350px;
+}
+div#skill ul.hcj div.progress-bar {
+  width: 200px; margin-top: 20px;
+    height: 30px;
+    background-color: #dedede;
+    font-weight: 600;
+    
+}
+div#skill ul.hcj div.progress-bar div.progress {
+  width: 50%;  
+  height: 30px;
+  padding: 0;
+  text-align: center;
+  background-color: #4F98FF;
+  color: #111;
+}
+div#skill ul.hcj div.progress-bar2 {
+  width: 200px; margin-top: 20px;
+    height: 30px;
+    background-color: #dedede;
+    font-weight: 600;
+    
+}
+div#skill ul.hcj div.progress-bar2 div.progress2 {
+  width: 50%;  
+  height: 30px;
+  padding: 0;
+  text-align: center;
+  background-color: #4F98FF;
+  color: #111;
+}
+div#skill ul.hcj div.progress-bar3 {
+  width: 200px; margin-top: 20px;
+    height: 30px;
+    background-color: #dedede;
+    font-weight: 600;
+    
+}
+div#skill ul.hcj div.progress-bar3 div.progress3 {
+  width: 50%;  
+  height: 30px;
+  padding: 0;
+  text-align: center;
+  background-color: #4F98FF;
+  color: #111;
+}
+
+
+div.swiper div.swiper-wrapper div.swiper-slide div#skill ul.des  {
+  display: flex; justify-content: center; align-items: center;
+  position: absolute; top: 65%; left: 62%; transform: translate(-50%,-50%);
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#skill ul.des li img {
+  width: 200px;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div#skill ul.des li  {
+  width: 350px;
+}
+
+div#skill ul.des .progress-bar4 {
+  width: 200px; margin-top: 20px;
+    height: 30px;
+    background-color: #dedede;
+    font-weight: 600;
+}
+div#skill ul.des div.progress-bar4 div.progress4 {
+  width: 50%;  
+  height: 30px;
+  padding: 0;
+  text-align: center;
+  background-color: #4F98FF;
+  color: #111;
+}
+div#skill ul.des .progress-bar5 {
+  width: 200px; margin-top: 20px;
+    height: 30px;
+    background-color: #dedede;
+    font-weight: 600;
+}
+div#skill ul.des div.progress-bar5 div.progress5 {
+  width: 50%;  
+  height: 30px;
+  padding: 0;
+  text-align: center;
+  background-color: #4F98FF;
+  color: #111;
+}
+div#skill ul.des .progress-bar6 {
+  width: 200px; margin-top: 20px;
+    height: 30px;
+    background-color: #dedede;
+    font-weight: 600;
+}
+div#skill ul.des div.progress-bar6 div.progress6 {
+  width: 50%;  
+  height: 30px;
+  padding: 0;
+  text-align: center;
+  background-color: #4F98FF;
+  color: #111;
+}
+
+
+
+
+
+
+
+
+
+div.swiper div.swiper-wrapper div.swiper-slide div.web {
+  width: 100%; height: 100%;
+  background-color: cornsilk;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div.banner {
+  width: 100%; height: 100%;
+  background-color: brown;
+}
